@@ -3,8 +3,24 @@
   margin-left:8%;
 }
 .logo {
-    width:200px;
-    height:200px;
+    width:80%;
     border-radius:150px;
     border:10px solid #666;
+}
+.soad {
+
+    display:block;
+    margin:auto;
+    width:180px;
+
+}
+.p-soad{
+    margin-left: 10px;
+    background-color: red;
+}
+.usuario{
+  display:block;
+  margin:auto;
+  width:50px;
+  height: 50px;
 }

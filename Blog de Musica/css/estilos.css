@@ -14,6 +14,13 @@
     width:180px;
 
 }
+.redhot {
+
+    display:block;
+    margin:auto;
+    width:180px;
+
+}
 .p-soad{
     margin-left: 10px;
     background-color: red;
@@ -21,6 +28,15 @@
 .usuario{
   display:block;
   margin:auto;
-  width:50px;
-  height: 50px;
+  width:30px;
+  height: 30px;
+}
+.contenido-grupo{
+  margin: 5px;
+  border: solid black;
+
+}
+h2{
+  display:block;
+  margin:auto;
 }

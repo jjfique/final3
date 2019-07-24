@@ -10,6 +10,7 @@ header{
 }
 .articulo-1 , .articulo-2{
   padding: 5%;
+
 }
 .busqueda{
   padding: 1rem;
@@ -59,4 +60,14 @@ header{
   color: #8a8a8a;
   cursor: not-allowed;
   background-color: #fefefe;
+}
+.historial{
+  padding: 1em;
+}
+.favoritos{
+    padding: 1em;
+}
+.favorito{
+  padding-left: 2%;
+
 }

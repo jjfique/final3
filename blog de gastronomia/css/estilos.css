@@ -3,7 +3,6 @@ background-image: url("../img/1.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
-background: src="img/1.jpg" center center cover no-repeat fixed;
 }
 header{
   color: #FFFFFF;
@@ -69,5 +68,20 @@ header{
 }
 .favorito{
   padding-left: 2%;
+
+}
+.cometarios{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom:20px;
+
+}
+.te-com{
+  padding: 20px;
+
+}
+.imag-1{
+  padding: 20px;
 
 }

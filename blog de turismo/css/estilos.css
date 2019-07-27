@@ -3,16 +3,20 @@ background-image: url("../img/fondo.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
+.barra-superior{
+background-color: rgba(139, 153, 255, 0.5);
+
+}
 .logo{
-  height: 150px;
+  height: 100px;
   align: center;
   padding: 5%;
+  border-radius: 30px;
 }
 .barra-logo{
-  height: 200px;
-  width: 200px;
-  background-color: Azure;
-  border: 1px solid MidnightBlue;
+  margin-top: 20px;
+  height: 100px;
+  width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;

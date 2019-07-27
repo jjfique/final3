@@ -32,3 +32,24 @@ background-color: rgba(139, 153, 255, 0.5);
 margin-left: 10px !important;
 margin-top: 3% !important;
 }
+
+.barra-redes{
+  background-color: red;
+}
+.redes-distancia{
+  margin-left: 10% !important;
+  margin-top: 10% !important;
+  margin-bottom: 15%;
+}
+.imagen{
+  border-radius: 10px;
+}
+.cont-imagen1{
+  margin-top: 10% !important
+}
+.cont-imagen2{
+  margin-top: 10% !important
+}
+.btn{
+  float: right;
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <!--Importar la fuente de los íconos de Google-->
@@ -9,30 +10,81 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize-social.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- CSS  -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <title>Blog de viajes</title>
 </head>
 <body>
   <div class="row">
     <!--barra de menu y logo -->
-    <header class="m12 col rgba ( 139, 153, 255, 0.5) barra-superior" >
-      <div class="m2 col barra-logo  ">
+    <header class="s12 m12 col  barra-superior" >
+      <div class="s2 m2 col barra-logo  ">
         <img src="img/logo.jpg" class="logo "   />
       </div>
-      <div class="m9 col ">
-        <div class=" m12 col  barra-menu">
-          <a class="waves-effect waves-light btn right btn-distancia tiny"><i class="material-icons left">play_circle_filled </i>Inico</a>
-          <a class="waves-effect waves-light btn right btn-distancia tiny"><i class="material-icons left">place</i>Estuve en</a>
-          <a class="waves-effect waves-light btn right btn-distancia tiny" ><i class="material-icons left">flight</i>mejores viajes</a>
-          <a class="waves-effect waves-light btn right btn-distancia tiny"><i class="material-icons left">chat_bubble_outline</i>recomendaciones</a>
+      <div class="s10 m10 col ">
+        <div class=" s12 m12 col  barra-menu">
+          <a class="waves-effect waves-light btn  btn-distancia tiny"><i class="material-icons left">play_circle_filled </i>Inico</a>
+          <a class="waves-effect waves-light btn  btn-distancia tiny"><i class="material-icons left">place</i>Estuve en</a>
+          <a class="waves-effect waves-light btn  btn-distancia tiny" ><i class="material-icons left">flight</i>mejores viajes</a>
+          <a class="waves-effect waves-light btn  btn-distancia tiny"><i class="material-icons left">chat_bubble_outline</i>Top semana</a>
         </div>
         <div class="m12 lema">
           <h2>Viaja por el mundo </h2>
         </div>
-
+      </div>
+  </header>
+  <!--primera seccion-->
+  <section  class="m12 col" >
+    <!--redes sociales -->
+    <div class="m1 col barra-redes" >
+      <a class="waves-effect waves-light btn-floating btn-large social facebook redes-distancia ">
+        <i class="fa fa-facebook"></i> Sign in with facebook</a>
+        <a class="waves-effect waves-light btn-floating btn-large social google redes-distancia">
+          <i class="fa fa-google"></i> Sign in with google</a>
+          <a class="waves-effect waves-light btn-floating btn-large social instagram redes-distancia">
+            <i class="fa fa-instagram"></i> Sign in with instagram</a>
+            <a class="waves-effect waves-light btn-floating btn-large social yahoo redes-distancia">
+            <i class="fa fa-yahoo"></i> Sign in with yahoo</a>
+            <a class="waves-effect waves-light btn-floating btn-large social twitter redes-distancia">
+              <i class="fa fa-twitter"></i> Sign in with twitter</a>
+    </div>
+    <!--priemara coluna de fotos -->
+    <div class="m4 col amber darken-5" >
+      <div class="m12 col cont-imagen1">
+        <img src="img/1.jpg"  class="imagen responsive-img"/>
+      </div>
+      <div class=" m12 col cont-imagen2">
+        <img src="img/2.jpg"  class=" imagen responsive-img"/>
+      </div>
+    </div>
+    <!--segunda coluna de fotos -->
+    <div class="m4 col amber darken-3" >
+      <div class="m12 col cont-imagen3">
+        <img src="img/3.jpg"  class="imagen responsive-img z-depth-3"/>
+      </div>
+      <div class="m12 col cont-imagen4">
+        <img src="img/4.jpg"  class="imagen responsive-img z-depth-5"/>
+      </div>
+      <div class="m12 col cont-imagen5">
+        <img src="img/5.jpg"  class="imagen responsive-img z-depth-5"/>
       </div>
 
+    </div>
+    <!--tercera coluna de fotos -->
+    <div class="m3 col amber darken-1" >
+      <div class="m12 col cont-imagen6">
+        <img src="img/6.jpg"  class="imagen responsive-img z-depth-3"/>
+      </div>
+      <div class="m12 col cont-imagen7">
+        <img src="img/7.jpg"  class="imagen responsive-img z-depth-3"/>
+      </div>
 
-    </header>
+    </div>
+
+  </section>
 
   </div>
 
